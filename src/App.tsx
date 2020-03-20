@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import logo from './assets/logo-solusoft.png'
+import './styles.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='container'>
+      <header className='d-flex justify-content-center'>
+        <img src={logo} alt="" />
       </header>
-    </div>
+      <div className="horizontal-line"></div>
+      <main className='d-flex justify-content-center'>
+        <div className='text-center'>
+          <h5>(+244) 948145100 | geral@solusoft.co.ao</h5>
+          <h5>Talatona - Luanda, Angola</h5>
+        </div>
+      </main>
+      <footer>
+        <h1 className="text-center under-text">Under Review</h1>
+      </footer>
+    </div >
   );
 }
 
