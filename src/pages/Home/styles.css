@@ -1,0 +1,13 @@
+footer {
+  color: var(--gray-color);
+}
+
+footer a,
+a:active,
+a:hover {
+  color: var(--gray-color);
+}
+
+.banner-1 img {
+  width: 100%;
+}
