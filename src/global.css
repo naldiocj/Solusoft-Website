@@ -1,0 +1,16 @@
+:root {
+  --blue-color: #0a3b5c;
+  --gray-color: #7f8083;
+  --blue-color-dark: #1b73b7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: ;
+}
