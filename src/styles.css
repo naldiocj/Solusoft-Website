@@ -11,6 +11,10 @@ header {
   padding: 40px 0px 20px 0px;
 }
 
+header img {
+  width: 100%;
+}
+
 div.horizontal-line {
   margin-top: 20px;
   margin-bottom: 20px;
